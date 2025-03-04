@@ -9,18 +9,23 @@
         function getRandomInt(max) {
             return Math.floor(Math.random() * max);
         }
-        let targetUrlList = ["https://www.surveycake.com/s/1Zo6x", "https://www.surveycake.com/s/pMean", "https://www.surveycake.com/s/Ba023", "https://www.surveycake.com/s/ablL4"];
+        let targetUrlList = [
+            "https://forms.gle/yiKutPE1bf2bbTrn8",
+            "https://forms.gle/WH2nyTbcR85hNVFFA",
+            "https://forms.gle/xkq1reTmP6GBrGVh6",
+            "https://forms.gle/WdbaTqPScVKzGq9i9"
+        ];
 
-        let ans = getRandomInt(100);
+        let ans = getRandomInt(40);
         // console.log(ans);
 
-        if(ans < 25){
+        if(ans < 10){
             location.href = "https://www.surveycake.com/s/1Zo6x";
         } 
-        else if(ans >= 25 && ans < 50){
+        else if(ans >= 10 && ans < 20){
             location.href = "https://www.surveycake.com/s/pMean";
         }
-        else if(ans >= 50 && ans < 75){
+        else if(ans >= 20 && ans < 30){
             location.href = "https://www.surveycake.com/s/Ba023";
         }
         else {
